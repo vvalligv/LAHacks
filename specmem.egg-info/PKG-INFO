@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: specmem
+Version: 0.1.0
+Summary: Memory-powered debugging agent demo
+Requires-Python: >=3.11
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: pymongo
+Requires-Dist: python-dotenv
+Requires-Dist: pydantic
+Requires-Dist: google-generativeai
+Requires-Dist: streamlit
+Requires-Dist: requests
+Requires-Dist: typer
+Requires-Dist: rich
