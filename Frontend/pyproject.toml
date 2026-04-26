@@ -1,0 +1,20 @@
+[project]
+name = "specmem"
+version = "0.1.0"
+description = "Memory-powered debugging agent demo"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pymongo",
+    "python-dotenv",
+    "pydantic",
+    "google-generativeai",
+    "streamlit",
+    "requests",
+    "typer",
+    "rich",
+]
+
+[project.scripts]
+specmem = "specmem.cli.cli:app"

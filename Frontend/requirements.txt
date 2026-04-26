@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pymongo
+python-dotenv
+pydantic
+google-generativeai
+streamlit
+requests
+typer
+rich
